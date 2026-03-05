@@ -200,6 +200,6 @@ To have it update your server you must **repeat steps 7 & 8**, changes can take 
 
 ## Credits
 
-Arthur McMullen
+Arthur McMullen  
 Bradley Barrientos
 
