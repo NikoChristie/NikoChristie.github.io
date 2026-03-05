@@ -1,4 +1,4 @@
-# Title
+# Markdown & Static Websites with Pelican & Github
 
 ## Purpose
 
@@ -11,9 +11,9 @@ There are a few programs that we will need to install ...
 
 | Tool | What It Is | What It Does |
 |------|------------|--------------|
-| **Python** | A programming language | Lets developers write instructions that a computer can run, It is used to build tools, automate tasks, analyse data, and more |
+| **Python** | A programming language | Lets developers write instructions that a computer can run, It is used to build tools, automate tasks, analyze data, and more |
 | **Git** | A version control system | Tracks every change ever made to a project's code, so a team can see the full history, undo mistakes, and work on the same files without overwriting each other |
-| **pip** | A package installer for Python | Downloads and installs ready-made code libraries so developers don't have to build everything from scratch, it works like an appstore for python |  
+| **pip** | A package installer for Python | Downloads and installs ready-made code libraries so developers don't have to build everything from scratch, it works like an app store for python |  
   
 (Bias towards including tables - Etter)
 
@@ -28,11 +28,11 @@ If you do not already have one, create a free account at [github.com](https://gi
 (Link liberally, don't duplicate - Etter)
 
 ### Setting Up Github SSH Keys
-Unlike many programs you are already framiliar with GitHub no longers supports logging in with a user name and password, what you have to do instead is create a Git SSH Key. You can learn how to do that [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)  
+Unlike many programs you are already framiliar with GitHub no longer supports logging in with a user name and password, what you have to do instead is create a Git SSH Key. You can learn how to do that [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)  
 (Link liberally, don't duplicate - Etter)
 
 #### Step 1 – Install the Deployment Helper
-This is a small tool that sends your finished website up to the internet. Run the following command in your terminal to intall it
+This is a small tool that sends your finished website up to the internet. Run the following command in your terminal to install it
 
 ```
 python -m pip install ghp-import
@@ -92,13 +92,13 @@ https://marvinmclaren.github.io/website
 
 1. Create a new file in the `content` directory  
 2. Call the file whatever you want, it should end in the `.md` file extension so the system knows that it is a markdown  
-3. At the begining of the file you **must** include the following information
+3. At the beginning of the file you **must** include the following information
 ```
 Tile: <Your Title>
 Date: YYYY-MM-DD HH:MM
 Category: <Your Category>
 ```
-4. Now you can put your new MarkDown skill to work write about whatever you want and then save the file
+4. Now you can put your new Markdown skill to work write about whatever you want and then save the file
 
 You can press **Enter** to accept the defaults for all other questions.
 
@@ -122,7 +122,7 @@ ghp-import output -b pages        # Packages the website for upload
 git push origin gh-pages          # Publishes the website live
 ```
 
-Here is a brief explaination of what each command does
+Here is a brief explanation of what each command does
 
 1. **Builds your website**  
    Think of this like hitting "Print" it takes all your raw content and converts it into a polished website ready to be seen by visitors.
@@ -195,7 +195,7 @@ For the average use case Markdown usually does a good enough job
 
 ### I Changed The Markdown Version Of My Resume, So Why Don't I See The Changes When I Refresh The Website In My Browser?
 
-Updating a makdown version on your computer won't immediatley change it on GitHub and inturn on your website  
+Updating a markdown version on your computer won't immediately change it on GitHub and in turn on your website  
 To have it update your server you must **repeat steps 7 & 8**, changes can take up to two minutes to become available on your website
 
 ## Credits
