@@ -36,14 +36,17 @@ This is a small tool that sends your finished website up to the internet. Run th
 
 ```
 python -m pip install ghp-import
-```
+```  
+(Use inline styles to offset important text - Etter)
+
 
 #### Step 2 – Install Pelican
 Pelican is the tool that actually builds your website. In your Terminal run:
 
 ```
 python -m pip install pelican
-```
+```  
+(Use inline styles to offset important text - Etter)  
 
 #### Step 3 – Create a New Repository
 A "repository" is just an online folder where your website files will live. Github is where our repository is hosted
@@ -52,7 +55,8 @@ A "repository" is just an online folder where your website files will live. Gith
 2. Select **New repository**
 3. Name it `marvinmclaren.github.io` 
 4. Leave it set to **Public**
-5. Click **Create repository**
+5. Click **Create repository**  
+(Ordered List - Etter)
 
 
 #### Step 4 – Download Your Repository to Your Computer
@@ -68,7 +72,8 @@ Then navigate into that folder by running:
 
 ```
 cd marvinmclaren.github.io
-```
+```  
+(Use inline styles to offset important text - Etter)  
 
 #### Step 5 – Run the Website Setup Wizard
 Pelican includes a setup assistant that asks you a few simple questions. Run:
@@ -104,7 +109,9 @@ Think of this like hitting "Save" and then uploading to the cloud. Run these two
 git add .
 git commit -am "First commit"
 git push origin main
-```
+```  
+(Use inline styles to offset important text - Etter)  
+
 
 #### Step 8 – Build and Publish Your Website
 These three commands generate the finished website and send it live:
@@ -122,7 +129,8 @@ Here is a brief explaination of what each command does
 2. **Packages the website for upload**  
    This bundles your freshly built website into a format that GitHub can understand and serve to the public
 3. **Publishes the website live**  
-   This is the "Send" button it uploads your packaged website to GitHub, making it instantly visible to anyone with your website's address.
+   This is the "Send" button it uploads your packaged website to GitHub, making it instantly visible to anyone with your website's address.  
+(Ordered list - Etter)
 
 
 #### Step 9 – Tell GitHub to Serve Your Website
@@ -131,7 +139,8 @@ This is a one-time setting you only need to configure once:
 1. Go to your repository on GitHub
 2. Click **Settings** (top menu)
 3. In the left sidebar, click **Pages**
-4. Under **Branch**, select `pages` and click **Save**
+4. Under **Branch**, select `pages` and click **Save**  
+(Ordered list - Etter)
 
 #### Step 10 Viewing Your Live Website
 
@@ -139,7 +148,9 @@ After a minute or two, your website will be live at:
 
 ```
 https://marvinmclaren.github.io
-```
+```  
+(Use inline styles to offset important text - Etter)  
+
 
 Paste that address into your browser to see it!
 
