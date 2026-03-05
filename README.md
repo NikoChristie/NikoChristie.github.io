@@ -17,8 +17,10 @@ There are a few programs that we will need to install ...
   
 (Bias towards including tables - Etter)
 
-Run the following command in your Terminal application
-`sudo apt -y install git python3-python python3-pip`  
+Run the following command in your Terminal application  
+```
+sudo apt -y install git python3-python python3-pip
+```  
 (Use inline styles to offset important text - Etter)
 
 ### A GitHub Account
@@ -26,8 +28,7 @@ If you do not already have one, create a free account at [github.com](https://gi
 (Link liberally, don't duplicate - Etter)
 
 ### Setting Up Github SSH Keys
-Unlike many programs you are already framiliar with GitHub no longers supports logging in with a user name and password, what you have to do instead is create a Git SSH Key  
-You can learn how to do that [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)  
+Unlike many programs you are already framiliar with GitHub no longers supports logging in with a user name and password, what you have to do instead is create a Git SSH Key. You can learn how to do that [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)  
 (Link liberally, don't duplicate - Etter)
 
 #### Step 1 – Install the Deployment Helper
