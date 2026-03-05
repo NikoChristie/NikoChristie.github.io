@@ -2,6 +2,8 @@
 
 ## Purpose
 
+The purpose of this README is to teach someone who is new to static websites & forges how to host their own custom website on GitHub with Pelican
+
 ## Prerequisites
 
 ### Required Software
@@ -59,7 +61,7 @@ This links your online folder to a folder on your own machine. In your Terminal 
 git clone https://github.com/username/marvinmclaren.github.io
 ```
 
-> **Note:** Replace `username` with the GitHub username you chose in Step 5.
+> **Note:** Replace `username` with the GitHub username
 
 Then navigate into that folder by running:
 
@@ -80,9 +82,21 @@ When it asks for a **URL prefix**, enter:
 https://marvinmclaren.github.io/website
 ```
 
+#### Step 6 - Create Your New Post
+
+1. Create a new file in the `content` directory  
+2. Call the file whatever you want, it should end in the `.md` file extension so the system knows that it is a markdown  
+3. At the begining of the file you **must** include the following information
+```
+Tile: <Your Title>
+Date: YYYY-MM-DD HH:MM
+Category: <Your Category>
+```
+4. Now you can put your new MarkDown skill to work write about whatever you want and then save the file
+
 You can press **Enter** to accept the defaults for all other questions.
 
-#### Step 6 – Save Your Files to GitHub
+#### Step 7 – Save Your Files to GitHub
 Think of this like hitting "Save" and then uploading to the cloud. Run these two commands:
 
 ```
@@ -91,13 +105,13 @@ git commit -am "First commit"
 git push origin main
 ```
 
-#### Step 7 – Build and Publish Your Website
+#### Step 8 – Build and Publish Your Website
 These three commands generate the finished website and send it live:
 
 ```
-pelican content -s publishconf.py
-ghp-import output -b pages
-git push origin gh-pages
+pelican content -s publishconf.py # Builds your website
+ghp-import output -b pages        # Packages the website for upload
+git push origin gh-pages          # Publishes the website live
 ```
 
 Here is a brief explaination of what each command does
@@ -110,7 +124,7 @@ Here is a brief explaination of what each command does
    This is the "Send" button it uploads your packaged website to GitHub, making it instantly visible to anyone with your website's address.
 
 
-#### Step 8 – Tell GitHub to Serve Your Website
+#### Step 9 – Tell GitHub to Serve Your Website
 This is a one-time setting you only need to configure once:
 
 1. Go to your repository on GitHub
@@ -118,7 +132,7 @@ This is a one-time setting you only need to configure once:
 3. In the left sidebar, click **Pages**
 4. Under **Branch**, select `pages` and click **Save**
 
-#### Step 9 Viewing Your Live Website
+#### Step 10 Viewing Your Live Website
 
 After a minute or two, your website will be live at:
 
@@ -128,8 +142,8 @@ https://marvinmclaren.github.io
 
 Paste that address into your browser to see it!
 
-> [!Making Updates in the Future]
-> Whenever you want to update your website, simply repeat **Step 7**. Your changes will be live within a couple of minutes.
+> [!Important]
+> Whenever you want to update your website, simply repeat **Steps 7 & 8**. Your changes will be live within a couple of minutes.
 
 ## Futher Resources
 
@@ -147,4 +161,32 @@ pip (short for "Pip Installs Packages") is the standard package manager for Pyth
 
 ## FAQ
 
+### Why is Markdown Better Than Writing Raw HTML?
+
+Markdown isn't necessarily better than HTML, like most things it depends on your use case. Take a look at the comparison below
+
+#### HTML
+```
+<h1>Title</h1>
+<p>This is some text, <strong>This is some bold text</strong> . </p>
+```
+
+#### Markdown
+```
+# Title
+This is some text, **this is some bold text**
+```
+
+Both will give you more or less the same output, markdown as you can see is much more terse  
+However HTML is *much* more powerful that Markdown. It excels at custom styling and fine grained control  
+For the average use case Markdown usually does a good enough job  
+
+### I Changed The Markdown Version Of My Resume, So Why Don't I See The Changes When I Refresh The Website In My Browser?
+
+Updating a makdown version on your computer won't immediatley change it on GitHub and inturn on your website  
+To have it update your server you must **repeat steps 7 & 8**, changes can take up to two minutes to become available on your website
+
 ## Credits
+
+
+
