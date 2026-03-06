@@ -84,11 +84,8 @@ Pelican includes a setup assistant that asks you a few simple questions. Run:
 pelican-quickstart
 ```
 
-When it asks for a **URL prefix**, enter:
-
-```
-https://marvinmclaren.github.io/website
-```
+Answer the questions with the following answers
+[!Pelican Quick Start Answers](Images/PelicanQuickStart.png)
 
 ### Step 6 - Create Your New Post
 
