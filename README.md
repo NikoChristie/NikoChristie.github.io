@@ -85,21 +85,21 @@ pelican-quickstart
 ```
 
 Answer the questions with the following answer  
+
+
 ![Pelican Quick Start Answers](https://github.com/NikoChristie/nikochristie.github.io/blob/master/Images/PelicanQuickStart.png)
 
 ### Step 6 - Create Your New Post
 
 1. Create a new file in the `content` directory  
 2. Call the file whatever you want, it should end in the `.md` file extension so the system knows that it is a markdown  
-3. At the beginning of the file you **must** include the following information
+3. Included the following information, without it you will not be able to post it to your static website
 ```
 Tile: <Your Title>
 Date: YYYY-MM-DD HH:MM
 Category: <Your Category>
 ```
-4. Now you can put your new Markdown skill to work write about whatever you want and then save the file
-
-You can press **Enter** to accept the defaults for all other questions.
+4. Write about whatever you want and save the file, put your new Markdown skills to use!
 
 ### Step 7 – Save Your Files to GitHub
 Think of this like hitting "Save" and then uploading to the cloud. Run these two commands:
@@ -137,8 +137,8 @@ This is a one-time setting you only need to configure once:
 
 1. Go to your repository on GitHub
 2. Click **Settings** (top menu)
-3. In the left sidebar, click **Pages**
-4. Under **Branch**, select `pages` and click **Save**  
+3. Click **Pages** in the left side bar
+4. Select `pages` under **Branch** and click **Save**  
 (Ordered list - Etter)
 
 ### Step 10 Viewing Your Live Website
